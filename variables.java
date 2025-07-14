@@ -39,5 +39,7 @@ public class variables {
         System.out.println("Are you a student? " + isStudent);
         System.out.println("Your blood group is: " + bloodGroup);
 
+        sc.close(); // Close after you're done with all input
+
     }
 }

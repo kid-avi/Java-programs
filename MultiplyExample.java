@@ -1,9 +1,10 @@
-// SumExample.java
+// MultiplyExample.java
 
 import java.util.Scanner;
 
-public class SubExample {
+public class MultiplyExample {
     public static void main(String[] args) {
+        // Create a Scanner object for user input
         Scanner sc = new Scanner(System.in);
 
         // Input two numbers
@@ -13,12 +14,13 @@ public class SubExample {
         System.out.print("Enter second number: ");
         int num2 = sc.nextInt();
 
-        // Calculate sum
-        int sub = num1 - num2;
+        // Calculate multiplication
+        int product = num1 * num2;
 
         // Output the result
-        System.out.println("The sub is: " + sub);
+        System.out.println("The product is: " + product);
 
+        // Close the scanner
         sc.close();
     }
 }
