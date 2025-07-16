@@ -1,4 +1,4 @@
-// SumExample.java
+// SubExample.java
 
 import java.util.Scanner;
 

@@ -1,4 +1,5 @@
-// IF/ELSE FUNCTION
+// IF/ELSE FUNCTION.java
+
 public class ifelsefunction {
     public static void main(String[] args) {
         int a, b;
