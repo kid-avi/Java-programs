@@ -1,13 +1,11 @@
+// Print 1 to 100 using a while loop
 
-// Print 1 to 100 using a do while loop
-import java.util.Scanner;
-
-public class DoWhileLoop {
+public class WhileLoop {
     public static void main(String[] args) {
         int i = 1; // Initialize counter
-        do {
+        while (i <= 100) { // Condition to check
             System.out.println(i); // Print current number
             i++; // Increment counter
-        } while (i <= 100); // Condition to check
+        }
     }
 }

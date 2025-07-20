@@ -13,5 +13,6 @@ public class Starpattern {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
